@@ -13,9 +13,15 @@
         img {
             width: 100%;
             height: auto;
-            display: block;
-            
+            display: block;    
         }
+
+        .container-side-by-side { 
+	        display: flex; 
+	        flex-direction: row; 
+	        flex-wrap: wrap; 
+        }
+        
     </style>
 </head>
 <body>
@@ -27,7 +33,7 @@
         <div>
             <span>Wovon man nicht sprechen kann, darüber muss man dichten.</span>
             <div>
-                <div>
+                <div class='container-side-by-side'>
                 <span><br></span>
                 <h4>Spuk</h4>
                 Die Menschen sind noch Kinder <br>
@@ -36,6 +42,7 @@
                 Wenn man zu geistreich redet <br>
                 Verhängen sie gleich ihre Fenster 
                 </div>
+                <div>
                 <img style="width: 50%;" src="ghost_with_book.png">
                 </div>
             </div>
